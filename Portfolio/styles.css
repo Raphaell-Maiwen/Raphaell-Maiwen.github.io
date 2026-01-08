@@ -1,0 +1,62 @@
+body{
+    font-size: 20px;
+    margin: 0;
+}
+
+.intro{
+    width: 60%;
+    margin: 25px auto;
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    color: #ff9292;
+}
+
+.description{
+    margin-top: 25px;
+    text-align: left;
+}
+
+.item{
+    margin-top: 50px;
+    text-align: center;
+    height: 300px;
+}
+
+.presentation{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+
+.presentation .name{
+    color: #ff9292;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.reference{
+    display: inline-block;
+    width: 40%;
+    max-width: 500px;
+    margin-top: 35px;
+}
+
+.reference .links{
+    text-align: center;
+}
+
+.reference .links a{
+    margin: 0 20px;
+    display: inline-block;
+}
+
+.reference img{
+    border: 1px solid black;
+    max-width: 390px;
+}
+
+
