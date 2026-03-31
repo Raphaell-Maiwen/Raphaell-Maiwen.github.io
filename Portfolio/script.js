@@ -2,11 +2,25 @@ const init = ()=>{
     const itemTemplate = document.getElementById("item").content; 
 
     const items = [{
-            name: "Wet What What",
-            description: "A game about the music industry weird censorship practices.",
-            thumbnail: "wetWhatWhat.jpg",
+            name: "Compass",
+            description: "An ambitious open-world VR game.",
+            thumbnail: "compassPortfolio.gif",
             repo: "WetWhatWhat",
-            link: "https://rafiki.itch.io/wet-what-what"
+            link: "https://www.meta.com/fr-ca/experiences/compass/7364112793688009/"
+        },
+        {
+            name: "Circle the Drain",
+            description: "Short horror game about the rise and fall of a pop icon.",
+            thumbnail: "circleTheDrainPortfolio.gif",
+            repo: "Circle-the-Drain",
+            link: "https://rafiki.itch.io/guitar-ego"
+        },
+        {
+            name: "Guitar Ego",
+            description: "Competitive rhythm game where players have to improvise solos.",
+            thumbnail: "guitarEgo.png",
+            repo: "SimpleRhythmGame",
+            link: "https://rafiki.itch.io/guitar-ego"
         }
     ]
 
