@@ -6,18 +6,12 @@ const init = ()=>{
             description: `An ambitious open-world VR game.
             <br>Tasks / Responsibilities:
             <ul>
-                <li>Blabla</li>
-                <li>Pouet</li>
-                <li>Blabla</li>
-                <li>Pouet</li>
-                <li>Blabla</li>
-                <li>Pouet</li>
-                <li>Blabla</li>
-                <li>Pouet</li>
-                <li>Blabla</li>
-                <li>Pouet</li>
-                <li>Blabla</li>
-                <li>Pouet</li>
+                <li>Gameplay features (elaborate)</li>
+                <li>Data persistence: making sure the game state stays consistent when saving / loading a save file, and when loading / unloading game zones as the player travel the world.</li>
+                <li>Tooling (give examples)</li>
+                <li>Optimization (LOD Groups, LOD generator, Origin Shifting, other stuff)</li>
+                <li>UI (UI Toolkit, <a href = "https://discussions.unity.com/t/introducing-the-vector-api-in-unity-2022-1/864911">Vector API)</a></li>
+                <li><a href = "https://www.articy.com/en/">Articy integration</a> (a narrative design tool)</li>
             </ul>`,
             thumbnail: "compassPortfolio.gif",
             repo: false,
@@ -26,7 +20,14 @@ const init = ()=>{
         },
         {
             name: "Circle the Drain",
-            description: "Short horror game about the rise and fall of a pop icon.",
+            description: `Short horror game about the rise and fall of a pop icon.
+            <br>Solo project. Did all the programming, including:
+            <ul>
+                <li>Systems Programming (Contextual actions + UI, Audio Manager, level progression and initialization, barebone dialogue system)</li>
+                <li>VFX Graph</li>
+                <li>Cinemachine cameras</li>
+                <li>UI (uGUI)</li>
+            </ul>`,
             thumbnail: false,
             videoThumbnail: "thumbnails/circleTheDrainPortfolio.webm",
             repo: "Circle-the-Drain",
@@ -34,7 +35,15 @@ const init = ()=>{
         },
         {
             name: "Guitar Ego",
-            description: "Competitive rhythm game where players have to improvise solos.",
+            description: `Competitive rhythm game where players have to improvise solos.
+            <br>Solo project. Did all the programming, including:
+            <ul>
+                <li>Metronome / music functions</li>
+                <li>Varied game states</li>
+                <li>Using Windows API to read raw input (read two keyboards as separate devices rather than one)</li>
+                <li>Games customization</li>
+                <li>UI (uGUI)</li>
+            </ul>`,
             thumbnail: "guitarEgo.png",
             repo: "SimpleRhythmGame",
             link: "https://rafiki.itch.io/guitar-ego"
