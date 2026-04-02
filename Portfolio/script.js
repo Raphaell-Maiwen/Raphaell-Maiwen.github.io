@@ -13,7 +13,8 @@ const init = ()=>{
                 <li>UI (UI Toolkit, <a href = "https://discussions.unity.com/t/introducing-the-vector-api-in-unity-2022-1/864911">Vector API)</a></li>
                 <li><a href = "https://www.articy.com/en/">Articy integration</a> (a narrative design tool)</li>
             </ul>`,
-            thumbnail: "compassPortfolio.gif",
+            thumbnail: false,
+            videoThumbnail: "thumbnails/compassPortfolio.webm",
             repo: false,
             link: "https://www.meta.com/fr-ca/experiences/compass/7364112793688009/",
             firstLinkText: "Meta Quest Store"
@@ -44,7 +45,7 @@ const init = ()=>{
                 <li>UI (uGUI)</li>
             </ul>`,
             thumbnail: "guitarEgo.png",
-            repo: "SimpleRhythmGame",
+            repo: "SimpleRhythmGame"
         }
     ]
 
