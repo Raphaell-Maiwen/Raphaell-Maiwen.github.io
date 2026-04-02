@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 
-.intro{
+.intro, .miscProjects{
     width: 60%;
     margin: 25px auto;
 }
@@ -22,7 +22,7 @@ body{
 .item{
     margin-top: 50px;
     text-align: center;
-    height: 300px;
+    min-height: 300px;
 }
 
 .presentation{
@@ -54,7 +54,7 @@ body{
     display: inline-block;
 }
 
-.reference img{
+.reference img, .reference video{
     border: 1px solid black;
     max-width: 390px;
 }
