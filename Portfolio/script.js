@@ -31,7 +31,6 @@ const init = ()=>{
             thumbnail: false,
             videoThumbnail: "thumbnails/circleTheDrainPortfolio.webm",
             repo: "Circle-the-Drain",
-            link: "https://rafiki.itch.io/guitar-ego"
         },
         {
             name: "Guitar Ego",
@@ -46,7 +45,6 @@ const init = ()=>{
             </ul>`,
             thumbnail: "guitarEgo.png",
             repo: "SimpleRhythmGame",
-            link: "https://rafiki.itch.io/guitar-ego"
         }
     ]
 
@@ -69,7 +67,14 @@ const init = ()=>{
             root.querySelector(".thumbnail").src = "thumbnails/" + item.thumbnail;
         }
         
-        root.querySelector(".tryIt").href = item.link;
+        if(item.link)
+        {
+            root.querySelector(".tryIt").href = item.link;
+        }
+        else
+        {
+            root.querySelector(".tryIt").remove();
+        }
         
         if(item.firstLinkText)
         {
