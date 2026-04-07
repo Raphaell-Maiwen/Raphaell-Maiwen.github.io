@@ -8,7 +8,7 @@ const init = ()=>{
             <ul>
                 <li>Gameplay features (including but not limited to: garage to customize ship, platforming obstacles, dynamic dialogue boxes, quest system)</li>
                 <li>Data persistence: making sure the game state stays consistent when saving / loading a save file, and when loading / unloading game zones as the player travel the world.</li>
-                <li>Tooling (teleport points, color blindness simulator, ship metrics with )</li>
+                <li>Tooling (teleport points, color blindness simulator, on-screen debug metrics)</li>
                 <li>Optimization (LOD Groups, LOD generator, origin shifting)</li>
                 <li>UI (UI Toolkit, <a href = "https://discussions.unity.com/t/introducing-the-vector-api-in-unity-2022-1/864911">Vector API)</a></li>
                 <li><a href = "https://www.articy.com/en/">Articy integration</a> (a narrative design tool)</li>
